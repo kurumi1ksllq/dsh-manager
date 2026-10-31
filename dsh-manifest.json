@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": 1793445659890,
+  "generatedAt": 1793449662023,
   "repo": "kurumi1ksllq/dsh-manager",
   "ref": "main",
   "plugins": [
@@ -39,7 +39,7 @@
       "name": "dsh-git-bash-tool",
       "version": "0.1.0",
       "source": "repo",
-      "platform": "win32"
+      "platform": "any"
     },
     {
       "kind": "plugin",
@@ -96,10 +96,7 @@
       "kind": "mcp",
       "name": "officecli",
       "transport": "stdio",
-      "platform": "any",
-      "requires": [
-        "officecli"
-      ]
+      "platform": "any"
     }
   ],
   "skills": [
@@ -126,10 +123,7 @@
     {
       "kind": "skill",
       "name": "office",
-      "platform": "any",
-      "requires": [
-        "officecli"
-      ]
+      "platform": "any"
     },
     {
       "kind": "skill",
@@ -149,16 +143,12 @@
     {
       "kind": "skill",
       "name": "video-asr",
-      "platform": "win32",
-      "requires": [
-        "gpu"
-      ]
+      "platform": "any"
     },
     {
       "kind": "skill",
       "name": "vmware-workstation",
-      "platform": "win32"
+      "platform": "any"
     }
   ]
 }
-
