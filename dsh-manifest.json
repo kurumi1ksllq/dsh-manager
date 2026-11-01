@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": 1793449662023,
+  "generatedAt": 1793532103499,
   "repo": "kurumi1ksllq/dsh-manager",
   "ref": "main",
   "plugins": [
@@ -14,17 +14,17 @@
     {
       "kind": "plugin",
       "name": "@wxg-prc-cpg/browser-skill-dsh-plugin",
-      "version": "0.3.3",
+      "version": "0.4.0",
       "source": "npm",
-      "spec": "0.3.3",
+      "spec": "0.4.0",
       "platform": "any"
     },
     {
       "kind": "plugin",
       "name": "dsh-context",
-      "version": "0.74.0",
+      "version": "0.79.0",
       "source": "npm",
-      "spec": "0.74.0",
+      "spec": "0.79.0",
       "platform": "any"
     },
     {
@@ -66,9 +66,9 @@
     {
       "kind": "plugin",
       "name": "dsh-tool-search",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "source": "npm",
-      "spec": "0.1.8",
+      "spec": "0.1.9",
       "platform": "any"
     },
     {
@@ -128,11 +128,6 @@
     {
       "kind": "skill",
       "name": "ponytail",
-      "platform": "any"
-    },
-    {
-      "kind": "skill",
-      "name": "tool-slimmer-setup",
       "platform": "any"
     },
     {
