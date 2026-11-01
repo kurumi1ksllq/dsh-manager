@@ -1,9 +1,154 @@
 {
-  "version": 1,
-  "generatedAt": "2026-11-01T08:08:54.060Z",
+  "manifestVersion": 1,
+  "generatedAt": 1793449662023,
   "repo": "kurumi1ksllq/dsh-manager",
   "ref": "main",
-  "plugins": [],
-  "mcp": [],
-  "skills": []
+  "plugins": [
+    {
+      "kind": "plugin",
+      "name": "@local/dsh-prompt-inject",
+      "version": "0.1.0",
+      "source": "repo",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
+      "name": "@wxg-prc-cpg/browser-skill-dsh-plugin",
+      "version": "0.3.3",
+      "source": "npm",
+      "spec": "0.3.3",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
+      "name": "dsh-context",
+      "version": "0.74.0",
+      "source": "npm",
+      "spec": "0.74.0",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
+      "name": "dsh-ctx-guard",
+      "version": "0.1.1",
+      "source": "repo",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
+      "name": "dsh-git-bash-tool",
+      "version": "0.1.0",
+      "source": "repo",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
+      "name": "dsh-inventory",
+      "version": "0.1.0",
+      "source": "repo",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
+      "name": "dsh-lsp-actions",
+      "version": "0.5.17",
+      "source": "repo",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
+      "name": "dsh-plugin-save-token",
+      "version": "2.4.1",
+      "source": "npm",
+      "spec": "^2.4.1",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
+      "name": "dsh-tool-search",
+      "version": "0.1.8",
+      "source": "npm",
+      "spec": "0.1.8",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
+      "name": "dsh-websearch-failover",
+      "version": "0.2.0",
+      "source": "repo",
+      "platform": "any"
+    }
+  ],
+  "mcp": [
+    {
+      "kind": "mcp",
+      "name": "codegraph",
+      "transport": "stdio",
+      "platform": "any"
+    },
+    {
+      "kind": "mcp",
+      "name": "context7",
+      "transport": "stdio",
+      "platform": "any"
+    },
+    {
+      "kind": "mcp",
+      "name": "officecli",
+      "transport": "stdio",
+      "platform": "any"
+    }
+  ],
+  "skills": [
+    {
+      "kind": "skill",
+      "name": "browser-skill",
+      "platform": "any"
+    },
+    {
+      "kind": "skill",
+      "name": "diagnose-windows-sandbox-acl",
+      "platform": "any"
+    },
+    {
+      "kind": "skill",
+      "name": "find-skills",
+      "platform": "any"
+    },
+    {
+      "kind": "skill",
+      "name": "i-have-adhd",
+      "platform": "any"
+    },
+    {
+      "kind": "skill",
+      "name": "office",
+      "platform": "any"
+    },
+    {
+      "kind": "skill",
+      "name": "ponytail",
+      "platform": "any"
+    },
+    {
+      "kind": "skill",
+      "name": "tool-slimmer-setup",
+      "platform": "any"
+    },
+    {
+      "kind": "skill",
+      "name": "ui-design",
+      "platform": "any"
+    },
+    {
+      "kind": "skill",
+      "name": "video-asr",
+      "platform": "any"
+    },
+    {
+      "kind": "skill",
+      "name": "vmware-workstation",
+      "platform": "any"
+    }
+  ]
 }
