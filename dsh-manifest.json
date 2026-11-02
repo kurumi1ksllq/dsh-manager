@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": 1793532103499,
+  "generatedAt": 1793609328354,
   "repo": "kurumi1ksllq/dsh-manager",
   "ref": "main",
   "plugins": [
@@ -29,6 +29,13 @@
     },
     {
       "kind": "plugin",
+      "name": "dsh-credential-vault",
+      "version": "0.1.0",
+      "source": "repo",
+      "platform": "any"
+    },
+    {
+      "kind": "plugin",
       "name": "dsh-ctx-guard",
       "version": "0.1.1",
       "source": "repo",
@@ -36,7 +43,7 @@
     },
     {
       "kind": "plugin",
-      "name": "dsh-git-bash-tool",
+      "name": "dsh-git-status",
       "version": "0.1.0",
       "source": "repo",
       "platform": "any"
@@ -50,17 +57,10 @@
     },
     {
       "kind": "plugin",
-      "name": "dsh-lsp-actions",
-      "version": "0.5.17",
-      "source": "repo",
-      "platform": "any"
-    },
-    {
-      "kind": "plugin",
       "name": "dsh-plugin-save-token",
       "version": "2.4.1",
       "source": "npm",
-      "spec": "^2.4.1",
+      "spec": "2.4.1",
       "platform": "any"
     },
     {
@@ -79,70 +79,11 @@
       "platform": "any"
     }
   ],
-  "mcp": [
-    {
-      "kind": "mcp",
-      "name": "codegraph",
-      "transport": "stdio",
-      "platform": "any"
-    },
-    {
-      "kind": "mcp",
-      "name": "context7",
-      "transport": "stdio",
-      "platform": "any"
-    },
-    {
-      "kind": "mcp",
-      "name": "officecli",
-      "transport": "stdio",
-      "platform": "any"
-    }
-  ],
+  "mcp": [],
   "skills": [
     {
       "kind": "skill",
-      "name": "browser-skill",
-      "platform": "any"
-    },
-    {
-      "kind": "skill",
-      "name": "diagnose-windows-sandbox-acl",
-      "platform": "any"
-    },
-    {
-      "kind": "skill",
-      "name": "find-skills",
-      "platform": "any"
-    },
-    {
-      "kind": "skill",
-      "name": "i-have-adhd",
-      "platform": "any"
-    },
-    {
-      "kind": "skill",
-      "name": "office",
-      "platform": "any"
-    },
-    {
-      "kind": "skill",
-      "name": "ponytail",
-      "platform": "any"
-    },
-    {
-      "kind": "skill",
-      "name": "ui-design",
-      "platform": "any"
-    },
-    {
-      "kind": "skill",
-      "name": "video-asr",
-      "platform": "any"
-    },
-    {
-      "kind": "skill",
-      "name": "vmware-workstation",
+      "name": "tool-slimmer-setup",
       "platform": "any"
     }
   ]
